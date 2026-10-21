@@ -49,7 +49,7 @@ To guarantee reproducibility, a fixed random seed is enforced:
 | Model | Technique / Regularization | Test Accuracy (%) | Test Loss |
 | :--- | :--- | :---: | :---: |
 | **Baseline (Logistic Regression / Small MLP)** | None | ~84.20% | ~0.450 |
-| **Custom CNN (Ours)** | BatchNorm + Dropout + Data Aug | **~90.85%** | **~0.258** |
+| **Custom CNN (Ours)** | BatchNorm + Dropout + Data Aug | **90.11%** | **0.2888** |
 
 *Note: Replace test metrics with your exact run numbers.*
 
