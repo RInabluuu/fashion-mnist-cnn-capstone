@@ -62,22 +62,18 @@ To guarantee reproducibility, a fixed random seed is enforced:
 ## 📁 Repository Structure
 
 ```text
-├── data/                       # Downloaded Fashion-MNIST dataset
-├── assets/                     # Saved plots (learning_curves.png, honest_failure_case.png)
-├── models/                     # Saved model weights (fashion_cnn.pth)
-├── notebooks/                  # Colab experimentation notebook
-│   └── capstone_experiment.ipynb
-├── requirements.txt            # Dependency list
-├── README.md                   # Project documentation
-└── main.py                     # Training and evaluation script
-
+├── README.md                 # Project documentation
+├── requirements.txt          # Dependency list
+├── project.ipynb             # Full end-to-end training & evaluation notebook
+├── learning_curves.png       # Loss and accuracy curves
+└── honest_failure_case.png   # Analysis of model failure case
 
 ```
 
-## 🚀 How to Reproduce
+## 🚀 How to Reproduce 
 
 1. Clone the repository
-   git clone https://github.com/RInabluuu/fashion-mnist-cnn-capstone
+   git clone https://github.com/RInabluuu/fashion-mnist-cnn-capstone.git
 
 2. Install dependencies
    pip install -r requirements.txt
