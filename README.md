@@ -55,7 +55,7 @@ To guarantee reproducibility, a fixed random seed is enforced:
 
 ### Learning Curves & Failure Analysis
 * The training vs. validation loss curve shows stable convergence without severe overfitting gap.
-* **Honest Failure Case:** Confusion frequently occurs between visually overlapping classes (e.g., `Shirt` misclassified as `T-shirt/top` or `Coat` due to identical outer contour and collar features in low-resolution 28x28 grayscale images).
+* **Honest Failure Case:** The model misclassified a **Pullover** as a **Shirt** with 86.5% confidence. This confusion stems from high visual ambiguity in 28x28 grayscale resolution, where long sleeves, collar outlines, and fabric textures between knitwear/pullovers and shirts share almost identical pixel intensity patterns.
 
 ---
 
