@@ -77,8 +77,7 @@ To guarantee reproducibility, a fixed random seed is enforced:
 ## 🚀 How to Reproduce
 
 1. Clone the repository
-   git clone [https://github.com/](https://github.com/)Rinabluu/fashion-mnist-cnn-capstone.git
-cd fashion-mnist-cnn-capstone
+   git clone https://github.com/RInabluuu/fashion-mnist-cnn-capstone
 
 2. Install dependencies
    pip install -r requirements.txt
